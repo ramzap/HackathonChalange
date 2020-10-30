@@ -1,0 +1,22 @@
+{
+  "name": "hackathonchalange",
+  "version": "1.0.0",
+  "description": "our repository for hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramzap/HackathonChalange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramzap/HackathonChalange/issues"
+  },
+  "homepage": "https://github.com/ramzap/HackathonChalange#readme",
+  "dependencies": {
+    "test-juggler": "2.0.1"
+  }
+}
