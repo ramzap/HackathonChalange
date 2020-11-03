@@ -1,129 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="56" failures="0" time="47.567">
-  <testsuite name="Helpers" errors="0" failures="0" skipped="0" timestamp="2020-10-30T08:31:19" time="4.201" tests="10">
-    <testcase classname="Helpers should issue GET request" name="Helpers should issue GET request" time="0.173">
-    </testcase>
-    <testcase classname="Helpers should issue POST request" name="Helpers should issue POST request" time="0.25">
-    </testcase>
-    <testcase classname="Helpers should issue PUT request" name="Helpers should issue PUT request" time="0.147">
-    </testcase>
-    <testcase classname="Helpers should issue PATCH request" name="Helpers should issue PATCH request" time="0.149">
-    </testcase>
-    <testcase classname="Helpers should issue DELETE request" name="Helpers should issue DELETE request" time="0.153">
-    </testcase>
-    <testcase classname="Helpers should issue arbitrary request" name="Helpers should issue arbitrary request" time="0.147">
-    </testcase>
-    <testcase classname="Helpers should handle bad response" name="Helpers should handle bad response" time="0.159">
-    </testcase>
-    <testcase classname="Helpers should verify JSON response" name="Helpers should verify JSON response" time="0.048">
-    </testcase>
-    <testcase classname="Helpers should convert XML response to JSON" name="Helpers should convert XML response to JSON" time="0.353">
-    </testcase>
-    <testcase classname="Helpers should issue request with basic auth" name="Helpers should issue request with basic auth" time="0.588">
-    </testcase>
-  </testsuite>
-  <testsuite name="Example" errors="0" failures="0" skipped="0" timestamp="2020-10-30T08:31:19" time="12.833" tests="3">
-    <testcase classname="Example should access methods defined in pages and components" name="Example should access methods defined in pages and components" time="7.485">
-    </testcase>
-    <testcase classname="Example should access an element defined in component defined in page" name="Example should access an element defined in component defined in page" time="1.223">
-    </testcase>
-    <testcase classname="Example should access an element defined directly in page" name="Example should access an element defined directly in page" time="2.047">
-    </testcase>
-  </testsuite>
-  <testsuite name="Visual Regression" errors="0" failures="0" skipped="0" timestamp="2020-10-30T08:31:19" time="17.334" tests="7">
-    <testcase classname="Visual Regression should compare browser window viewport screenshots" name="Visual Regression should compare browser window viewport screenshots" time="5.569">
-    </testcase>
-    <testcase classname="Visual Regression should compare full page screenshots" name="Visual Regression should compare full page screenshots" time="1.687">
-    </testcase>
-    <testcase classname="Visual Regression should compare custom viewport size screenshots" name="Visual Regression should compare custom viewport size screenshots" time="1.409">
-    </testcase>
-    <testcase classname="Visual Regression should compare screenshots of specific page area" name="Visual Regression should compare screenshots of specific page area" time="1.177">
-    </testcase>
-    <testcase classname="Visual Regression should capture screenshot of specific page element" name="Visual Regression should capture screenshot of specific page element" time="1.789">
-    </testcase>
-    <testcase classname="Visual Regression should manipulate DOM to modify dynamic/static content before making screenshot comparison" name="Visual Regression should manipulate DOM to modify dynamic/static content before making screenshot comparison" time="1.542">
-    </testcase>
-    <testcase classname="Visual Regression should cover unwanted element before making screenshot comparison" name="Visual Regression should cover unwanted element before making screenshot comparison" time="2.093">
-    </testcase>
-  </testsuite>
-  <testsuite name="Interceptor" errors="0" failures="0" skipped="0" timestamp="2020-10-30T08:31:19" time="33.727" tests="7">
-    <testcase classname="Interceptor should block requests by any url fragment while test case running" name="Interceptor should block requests by any url fragment while test case running" time="10.507">
-    </testcase>
-    <testcase classname="Interceptor should block requests by any url fragment after abort method is used" name="Interceptor should block requests by any url fragment after abort method is used" time="4.779">
-    </testcase>
-    <testcase classname="Interceptor should block request by any url fragment after action" name="Interceptor should block request by any url fragment after action" time="4.811">
-    </testcase>
-    <testcase classname="Interceptor should block any request after action" name="Interceptor should block any request after action" time="3.545">
-    </testcase>
-    <testcase classname="Interceptor should count all requests" name="Interceptor should count all requests" time="1.671">
-    </testcase>
-    <testcase classname="Interceptor should detect specific response after action" name="Interceptor should detect specific response after action" time="3.517">
-    </testcase>
-    <testcase classname="Interceptor should detect any request after action" name="Interceptor should detect any request after action" time="2.849">
-    </testcase>
-  </testsuite>
-  <testsuite name="Helpers" errors="0" failures="0" skipped="0" timestamp="2020-10-30T08:31:19" time="40.958" tests="6">
-    <testcase classname="Helpers should take screenshot, save to logs folder and return filepath" name="Helpers should take screenshot, save to logs folder and return filepath" time="5.396">
-    </testcase>
-    <testcase classname="Helpers should use date now for screenshot file name when none is provided" name="Helpers should use date now for screenshot file name when none is provided" time="0.771">
-    </testcase>
-    <testcase classname="Helpers should retry until action have succeeded" name="Helpers should retry until action have succeeded" time="7.249">
-    </testcase>
-    <testcase classname="Helpers should wait for navigation to be finished" name="Helpers should wait for navigation to be finished" time="24.351">
-    </testcase>
-    <testcase classname="Helpers should enter iFrame and get text" name="Helpers should enter iFrame and get text" time="0.618">
-    </testcase>
-    <testcase classname="Helpers should setup new page" name="Helpers should setup new page" time="0.541">
-    </testcase>
-  </testsuite>
-  <testsuite name="Element Actions" errors="0" failures="0" skipped="2" timestamp="2020-10-30T08:31:19" time="46.721" tests="23">
-    <testcase classname="Element Actions should get element selector" name="Element Actions should get element selector" time="0.029">
-    </testcase>
-    <testcase classname="Element Actions should get child element by XPath selector" name="Element Actions should get child element by XPath selector" time="5.661">
-    </testcase>
-    <testcase classname="Element Actions should wait for an element" name="Element Actions should wait for an element" time="6.804">
-    </testcase>
-    <testcase classname="Element Actions should wait for element to be visible" name="Element Actions should wait for element to be visible" time="6.431">
-    </testcase>
-    <testcase classname="Element Actions should wait for element to be invisible" name="Element Actions should wait for element to be invisible" time="7.035">
-    </testcase>
-    <testcase classname="Element Actions should click an element" name="Element Actions should click an element" time="0.792">
-    </testcase>
-    <testcase classname="Element Actions should double click an element" name="Element Actions should double click an element" time="1.762">
-    </testcase>
-    <testcase classname="Element Actions should right click an element" name="Element Actions should right click an element" time="0.728">
-    </testcase>
-    <testcase classname="Element Actions should check if element exist" name="Element Actions should check if element exist" time="0.515">
-    </testcase>
-    <testcase classname="Element Actions should check if element is visible" name="Element Actions should check if element is visible" time="0.473">
-    </testcase>
-    <testcase classname="Element Actions should Drag and Drop one element on to another" name="Element Actions should Drag and Drop one element on to another" time="0">
-      <skipped/>
-    </testcase>
-    <testcase classname="Element Actions should get inner text of an element" name="Element Actions should get inner text of an element" time="0.463">
-    </testcase>
-    <testcase classname="Element Actions should get value of style attribute text-align of an element" name="Element Actions should get value of style attribute text-align of an element" time="0.439">
-    </testcase>
-    <testcase classname="Element Actions should hover on an element" name="Element Actions should hover on an element" time="2.048">
-    </testcase>
-    <testcase classname="Element Actions should get DOM element" name="Element Actions should get DOM element" time="0.523">
-    </testcase>
-    <testcase classname="Element Actions should get element&apos;s value" name="Element Actions should get element&apos;s value" time="0.483">
-    </testcase>
-    <testcase classname="Element Actions should get element&apos;s attribute value" name="Element Actions should get element&apos;s attribute value" time="0.631">
-    </testcase>
-    <testcase classname="Element Actions should hover element with offset" name="Element Actions should hover element with offset" time="3.248">
-    </testcase>
-    <testcase classname="Element Actions should left-click element with offset" name="Element Actions should left-click element with offset" time="2.282">
-    </testcase>
-    <testcase classname="Element Actions should right-click element with offset" name="Element Actions should right-click element with offset" time="2.226">
-    </testcase>
-    <testcase classname="Element Actions should type element&apos;s text value" name="Element Actions should type element&apos;s text value" time="0.795">
-    </testcase>
-    <testcase classname="Element Actions should cover element" name="Element Actions should cover element" time="0">
-      <skipped/>
-    </testcase>
-    <testcase classname="Element Actions should get coordinates of element" name="Element Actions should get coordinates of element" time="1.273">
+<testsuites name="jest tests" tests="1" failures="1" time="600.847">
+  <testsuite name="Paper clips test" errors="0" failures="1" skipped="0" timestamp="2020-10-30T14:55:06" time="600.721" tests="1">
+    <testcase classname="Paper clips test Test paper clips" name="Paper clips test Test paper clips" time="600.007">
+      <failure>: Timeout - Async callback was not invoked within the 600000ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 600000ms timeout specified by jest.setTimeout.Error: 
+    at new Spec (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\Spec.js:116:22)
+    at new Spec (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\setup_jest_globals.js:78:9)
+    at specFactory (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\Env.js:523:24)
+    at Env.it (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\Env.js:592:24)
+    at Env.it (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:128:23)
+    at it (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:100:21)
+    at Suite.&lt;anonymous&gt; (C:\Users\raminta.zapolske\hackathon\HackathonChalange\example\tests\paperClip.test.js:5:5)
+    at addSpecsToSuite (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\Env.js:444:51)
+    at Env.describe (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\Env.js:414:11)
+    at describe (C:\Users\raminta.zapolske\hackathon\HackathonChalange\node_modules\jest-jasmine2\build\jasmine\jasmineLight.js:88:18)</failure>
     </testcase>
   </testsuite>
 </testsuites>
