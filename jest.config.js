@@ -9,5 +9,5 @@ module.exports = {
         "default",
         ["jest-junit", { outputDirectory: "junit-report" }]
     ],
-    testTimeout: 60000
+    testTimeout: 600000
 };

@@ -283,7 +283,7 @@ describe("Element Actions", () => {
         const rectangleCanvas = new Element("#canvas");
         await page.goto("http://www.cs.sjsu.edu/~mak/archive/CMPE280/code/canvas/rectangles.html");
 
-        //Act
+        //Act  
         const coordinates = await rectangleCanvas.getCoordinates();
 
         //Assert
